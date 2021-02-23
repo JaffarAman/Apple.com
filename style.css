@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /////navbar styling///// */
+
+.navbar {
+    width: 100%;
+    background-color: #333333;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9;
+    font-size: medium;
+    flex-wrap: wrap;
+    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar li{
+    width: 80px;
+    list-style: none;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar i{
+    font-size: large;
+}
+.navbar i:hover{
+    color: white;
+}
+
+/* /////COVID ALERT///// */
+.covidAlert{
+    background: #0071E3;
+    width: 100%;
+    height:48px;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+
+}
+.covidAlert span{
+    font-size: small;
+}
+.covidAlert p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* /////div3 ///// */
+.div3{
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5A5A5C;
+    padding: 0 10px;
+}
+.div3 span{
+    color: #4790D8;
+}
+.div3 span:hover{
+    text-decoration: underline;
+}
+
+
+/* ////////topcontain styling */
+
+.topcontain{
+    /* border: 1px solid brown; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;     */
+    /* margin-top: 20px ; */
+    padding: 10px;
+    background-color: #FBFBFD;
+}
+.wording{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wording h1{
+    columns: #1D1D1F;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+.wording h2{
+    font-weight: 100;
+    font-size: 25px;
+    color: #414143;
+    font-family: sans-serif;
+}
+.wording p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: gray;
+}
+.wording span{
+    color: #0071E3;
+    font-size: 20px;
+    display: inline-block;
+    margin:0 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.wording span:hover{
+    text-decoration: underline;
+}
+.wording i{
+    font-size: small;
+}
+
+.topimg img{
+    width: 100%;
+}
+
+/* ///////middlecontain///////// */
+.middlecontain{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    /* margin-bottom: 20px; */
+}
+.wording2{
+    text-align: center;
+
+}
+.wording2 h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.wording2 h2{
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    /* color: #414143; */
+    font-family: sans-serif;
+}
+.wording2 p{
+    color: gray;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+.wording2 span{
+    
+    color: #0071E3;
+    font-size: 20px;
+    display: inline-block;
+    margin:0 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.wording2 span:hover{
+    text-decoration: underline;
+}
+.wording2 i{
+    font-size: small;
+}
+
+.middleimg img{
+    width: 100%;
+}
+
+/* /////////ipadcontain styling/////////// */
+
+.ipadcontain{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.ipadwording{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    text-align: center;
+}
+.ipadwording h1{
+    columns: #1D1D1F;
+    font-size: 50px;
+    font-family: sans-serif;   
+}
+.ipadwording h2{
+    /* color: white; */
+    font-weight: 100;
+    font-size: 25px;
+    color: #414143;
+    font-family: sans-serif;
+}
+.ipadwording span{
+    color: #0071E3;
+    font-size: 20px;
+    display: inline-block;
+    margin:0 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ipadwording span:hover{
+    text-decoration: underline;
+}
+.ipadwording i{
+    font-size: small;
+}
+
+
+.ipadimg{
+    /* border: 2px solid orangered; */
+    width: 100%;
+}
+.ipadimg img{
+    width: 100%;
+}
+
+
+/* ////////card line 1 styling///// */
+
+.card1{
+    /* margin-top: 20px; */
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.pic1{
+    border: 1px solid lime;
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/promo_reji__lj3lxa1vxgyu_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:0 10px ;
+    padding-top: 30px;
+}
+.pic1 h1{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.pic1 h2{
+    color: #F5F5F7;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.pic1 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pic1 i{
+    font-size: small;
+}
+.pic1 span:hover{
+    text-decoration: underline;
+}
+.pic2{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/promo_watch_black_unity_collection__glt5v0ra46q2_small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:0 10px ;
+    padding-top: 50px;
+}
+.pic2 h1{
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.pic2 h3{
+    color: red;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.pic2 h2{
+
+    color: #F5F5F7;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.pic2 span{
+    color: #0071E3;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.pic2 span i{
+    font-size: small;
+}
+.pic2 span:hover{
+    text-decoration: underline;
+}
+
+/* ////////card2//////// */
+
+.card2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+       
+}
+
+.pic3{
+    /* border: 1px solid lime; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/promo_watch_heart_month__d1j3t4c9iu6a_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:0 10px ;
+    /* padding-top: 30px; */
+
+}
+.pic3 small{
+    color: red;
+}
+.pic3 h1{
+    color: #333333;
+    font-size: 35px;
+    font-family: sans-serif;
+    /* margin-top: 10px; */
+}
+.pic3 h2{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;   
+}
+.pic3 span{
+    color: #0071E3;
+}
+.pic3 span i{
+    font-size: small;
+}
+.pic3 span:hover{
+    text-decoration: underline;
+}
+.pic4{
+    /* border: 1px solid lime; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/tile__cauwwcyyn9hy_large.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    background-size: 100%;
+    text-align: center;
+    padding:0 10px ;
+    /* padding-top: 30px; */
+}
+
+.pic4 h1{
+    color: #333333;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.pic4 h2{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+    margin-bottom: 20px;   
+}
+.pic4 span{
+    color: #0071E3;
+    margin: 0 10px;
+}
+.pic4 span i{
+    font-size: small;
+}
+.pic4 span:hover{
+    text-decoration: underline;
+}
+
+/* /////card3///////// */
+.card3{
+    /* border: 2px solid tomato; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+       
+}
+.pic5{
+    width: 100%;
+    /* border: 1px solid lime; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/tile_bhm__b3fry89xycqa_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    text-align: center;
+    padding:0 10px ;
+     /* padding-top: 30px    */
+
+    }
+.pic5 img{
+        margin-top: 25px;
+}
+.pic5 h1{
+    color:yellow;
+    font-weight:500 ;
+    margin-top: 10px;
+}
+.pic5 span{
+    color: #0071E3;
+    margin-top: 10px;
+}
+.pic5 span i{
+    font-size: small;
+}
+.pic5 span:hover{
+    text-decoration: underline;
+}
+
+.pic6{
+    width: 100%;
+    /* border: 1px solid lime; */
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    background-image: url("images/promo_tv_plus_for_all_mankind_s2__fpkwai5zk7u6_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    text-align: center;
+    padding:0 10px ;
+     /* padding-top: 30px    */
+}
+.pic6 img{
+    margin-top: 25px;
+}
+.pic6 span{
+    display: inline-block;
+    margin-top: 120px;
+    color: white;
+    font-size: large;
+}
+
+
+
+/* /////////wordingsection////////// */
+.wordingsection{
+    background-color: #F5F5F7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wordingsection div{
+    width: 70%;
+}
+.wordingsection ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+    color: #9E9EA3;
+}
+
+/* /////////footer/////////// */
+.footer{
+    width: 100%;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerDiv{
+    border-top: 1px solid #D2D2D7;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.footerDiv li{
+    list-style: none;
+    /* border: 1px solid black; */
+    padding: 5px;
+    color: #747476;
+    width: auto;
+    font-family: sans-serif;
+    font-size: small;
+}
+.footerDiv ul{
+    margin: 10px 0;
+}
+.links{
+    border-bottom: 1px solid #D2D2D7;
+    margin: 10px 0;
+    width: 70%;
+}
+.blue{
+    color: #0071E3;
+}
+
+.footerEnd{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.copy ul{
+    list-style: none;
+}
+.copy li{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0 10px;
+}
